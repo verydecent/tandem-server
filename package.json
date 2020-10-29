@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/verydecent/tandem-server/issues"
   },
-  "homepage": "https://github.com/verydecent/tandem-server#readme"
+  "homepage": "https://github.com/verydecent/tandem-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

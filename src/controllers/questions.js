@@ -116,7 +116,7 @@ const questions = [
 ];
 
 const getAll = (req, res) => {
-  res.status(200).JSON(questions);
+  res.status(200).json(questions);
 };
 
 module.exports = {

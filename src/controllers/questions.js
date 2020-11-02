@@ -115,10 +115,16 @@ const questions = [
   },
 ];
 
-const getAll = (req, res) => {
+const getAllQuestions = (req, res) => {
   res.status(200).json(questions);
 };
 
+const getQuestion = (req, res) => {
+  const { id } = req.params;
+  res.status(200).json(questions[id]);
+};
+
 module.exports = {
-  getAll,
+  getQuestion,
+  getAllQuestions,
 };
